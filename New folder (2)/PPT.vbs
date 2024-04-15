@@ -17,7 +17,10 @@ msgbox"uninstalled"
 msgbox"the app I said"
 msgbox"WHAT?!?!?! You did not?"
 msgbox"Okay Okay Okay"
-msgbox"Click the button down here to uninstall it"
+msgbox"Click the Delete button on next windows to uninstall it"
+set AA=CreateObject("Wscript.Shell")
+
+AA.Run "test.py"
 msgbox"and"
 msgbox"I think you pressed the"
 msgbox"wrong button."
